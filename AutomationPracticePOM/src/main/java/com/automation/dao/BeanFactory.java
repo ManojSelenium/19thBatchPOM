@@ -7,7 +7,7 @@ public class BeanFactory {
 	
 	public void createNewUser(CreateUserBean bean) {
 		
-		
+		System.out.println("Added statement");
 		bean.setEmailAddress(RandomStringUtils.randomAlphabetic(5)+"@mailinator.com");
 		bean.setFirstName("Manoj");
 		bean.setLastName("Manoj");
